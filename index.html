@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MENU RESPONSIVE</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <link rel="stylesheet" href="movil.css">
+  <script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+  <header class="ancho">
+    <figure class="logo">
+      <img src="Imagenes2/pullrequest-logo.svg" alt="" />
+    </figure>
+  </header>
+  <nav class="ancho">
+    <i id="iconomenu" class="fa-solid fa-bars"></i>
+    <ul id="menu" class="contenedormenu">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Empresa</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Ubicacion</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section class="ancho contenedorinfo">
+    <article>
+      <h1>Creacion de paginas web</h1>
+      <h3>Curso básico de HTML5 y CSS3</h3>
+      <a href="#" id="titulo" class="btn_rojo">Ver mas</a>
+      <br />
+      <p id="parrafo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste
+        maxime quia pariatur placeat dolore nulla. Ad inventore, accusantium
+        reiciendis neque quaerat esse officiis voluptatum facilis temporibus
+        distinctio, tenetur tempore.
+      </p>
+    </article>
+    <figure>
+      <img src="Imagenes2/foto1.webp" alt="Foto Aleatoria" />
+    </figure>
+  </section>
+
+
+  <footer class="ancho">
+    <a href="#">@menuresponsive</a>
+  </footer>
+
+
+
+  <!-- funciones javascript -->
+  <script>
+    $("#iconomenu").click(function () {
+      $("#menu").slideToggle();
+    });
+  </script>
+</body>
+
+</html>
